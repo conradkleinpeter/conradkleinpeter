@@ -1,379 +1,418 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<!doctype html>
  
 <html>
 <font face="calibri">
 <head>
-  <title>Roger Gagnon Auto Sales</title>
- <style>
-   body{
-    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-    background:#474747;
-    background-size:cover;
-    margin:0px;
-    padding:0px;
-  }
-  h1 {
-    color:#000000;
-  }
-  h2 {
-    color:#fff;
-  }
-  h3 {
-    color:#000000;
-  }
-  .menu{
-    width:100%;
-    height:70px;
-    background:#0009;
-  }
-  .menu ul
-  {
-    float:right;
-    margin:0px;
-    padding:0px;
-  }
-  .menu ul li {
-    display:inline-block;
-    list-style:none;
-    width:120px;
-    height:70px;
-    text-align:center;
-    line-height:70px;
-  }
-  .menu ul li a{
-    color:#fff;
-    text-decoration:none;
-    font:size:20px;
-    display:block;
-  }
-  .menu ul li a:hover
-  {
-    background:#2196f3;
-    color:#fff;
-    transition:0.3s;
-  }
-  .menu h2 {
-    float:left;
-    margin:15px;
-    padding:0px;
-  }
-  html{
-  font-family:sans-serif;
-  -ms-text-size-adjust:100%;
-  -webkit-text-size-adjust:100%
-}
-body{
-  margin:0
-}
-article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{
-  display:block
-}
-audio,canvas,progress,video{
-  display:inline-block;
-  vertical-align:baseline
-}
-audio:not([controls]){
-  display:none;
-  height:0
-}
-[hidden],template{
-  display:none
-}
-a{
-  background-color:transparent
-}
-a:active,a:hover{
-  outline:0
-}
-abbr[title]{
-  border-bottom:1px dotted
-}
-b,strong{
-  font-weight:bold
-}
-dfn{
-  font-style:italic
-}
-h1{
-  font-size:2em;
-  margin:.67em 0
-}
-mark{
-  background:#ff0;
-  color:#000
-}
-small{
-  font-size:80%
-}
-sub,sup{
-  font-size:75%;
-  line-height:0;
-  position:relative;
-  vertical-align:baseline
-}
-sup{
-  top:-0.5em
-}
-sub{
-  bottom:-0.25em
-}
-img{
-  border:0
-}
-svg:not(:root){
-  overflow:hidden
-}
-figure{
-  margin:1em 40px
-}
-hr{
-  box-sizing:content-box;
-  height:0
-}
-pre{
-  overflow:auto
-}
-code,kbd,pre,samp{
-  font-family:monospace,monospace;
-  font-size:1em
-}
-button,input,optgroup,select,textarea{
-  color:inherit;
-  font:inherit;
-  margin:0
-}
-button{
-  overflow:visible
-}
-button,select{
-  text-transform:none
-}
-button,html input[type="button"],input[type="reset"]{
-  -webkit-appearance:button;
-  cursor:pointer
-}
-button[disabled],html input[disabled]{
-  cursor:default
-}
-button::-moz-focus-inner,input::-moz-focus-inner{
-  border:0;
-  padding:0
-}
-input{
-  line-height:normal
-}
-input[type="checkbox"],input[type="radio"]{
-  box-sizing:border-box;
-  padding:0
-}
-input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{
-  height:auto
-}
-input[type="search"]{
-  -webkit-appearance:none
-}
-input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{
-  -webkit-appearance:none
-}
-fieldset{
-  border:1px solid #c0c0c0;
-  margin:0 2px;
-  padding:.35em .625em .75em
-}
-legend{
-  border:0;
-  padding:0
-}
-textarea{
-  overflow:auto
-}
-optgroup{
-  font-weight:bold
-}
-table{
-  border-collapse:collapse;
-  border-spacing:0
-}
-td,th{
-  padding:0
+	<title>Roger Gagnon Auto Sales</title>
+	<style>
+body {
+background:#474747;
+background-size:cover;
+min-height:100%;
+background-color:#fff;
+font-family:Roboto, sans-serif;
+color:#333;
+font-size:16px;
+line-height:22px;
+margin:0;
+padding:0;
 }
 
-  h1 {
-  margin-top: 0px;
-  margin-bottom: 20px;
-  font-family: Roboto, sans-serif;
-  font-size: 35px;
-  line-height: 40px;
-  font-weight: 500;
-  }
-
-  h2 {
-    margin-top: 0px;
-    margin-bottom: 20px;
-    font-family: Roboto, sans-serif;
-    font-size: 32px;
-    line-height: 36px;
-    font-weight: 500;
-  }
-
-  h3 {
-    margin-top: 0px;
-    margin-bottom: 20px;
-    font-family: Roboto, sans-serif;
-    font-size: 26px;
-    line-height: 33px;
-    font-weight: 500;
-  }
-
-  h4 {
-    margin-top: 0px;
-    margin-bottom: 20px;
-    font-family: Roboto, sans-serif;
-    font-size: 20px;
-    line-height: 27px;
-    font-weight: 500;
-  } 
-
-  h5 {
-    margin-top: 0px;
-    margin-bottom: 20px;
-    font-family: Roboto, sans-serif;
-    font-size: 16px;
-    line-height: 22px;
-    font-weight: 500;
-  }
-
-  h6 {
-    margin-top: 0px;
-    margin-bottom: 20px;
-    font-family: Roboto, sans-serif;
-    font-size: 16px;
-    line-height: 22px;
-    font-weight: 500;
-  }
-
-  p {
-    margin-top: 0px;
-    margin-bottom: 20px;
-    line-height: 22px;
-    font-weight: 400;
-  }
-
-  a {
-    color: #2196f3;
-    text-decoration: none;
-  }
-
-  ul {
-    margin-top: 0px;
-    margin-bottom: 20px;
-    padding-left: 40px;
-  }
-
-  ol {
-    margin-top: 0px;
-    margin-bottom: 20px;
-    padding-left: 40px;
-  }
-
-  strong {
-    font-weight: bold;
-  }
-  .hero-slider {
-  height: 455px;
-  background-color: transparent;
+h1 {
+color:#000;
+font-family:Roboto, sans-serif;
+font-size:35px;
+line-height:40px;
+font-weight:normal;
+margin:0 0 20px;
 }
 
-  .slide {
-    padding-top: 82px;
-    padding-right: 85px;
-    padding-left: 85px;
-    background-color: #dbdbdb;
-  }
-      }
-  .image-column {
-    margin-bottom: 10px;
-  }
-    }
-  .section {
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-  
-@media (max-width: 991px) {
-  .hamburger-button:hover {
-    color: #2196f3;
-  }
-  .hamburger-button.w--open {
-    background-color: #333;
-  }
-  .hamburger-button.left {
-    float: left;
-  }
-  .hamburger-button.white {
-    color: #fff;
-  }
-  .hero-slider {
-    height: 400px;
-  }
-  .form-wrapper.squeezed {
-    padding-right: 10%;
-    padding-left: 10%;
-  }
-  .left-navigation {
-    width: 100%;
-    height: auto;
-    float: none;
-  }
-  .nav-link {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    color: #fff;
-  }
-  .nav-menu {
-    padding: 17px;
-    background-color: #333;
-  }
-  .logo-link {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 10px;
-    float: left;
-  }
-  .content {
-    width: 100%;
-    height: auto;
-  }
-  .social-footer {
-    margin-top: 0px;
-  }
-  .content-column {
-    padding-top: 0px;
-  }
+h2 {
+color:#fff;
+margin-top:0;
+margin-bottom:20px;
+font-family:Roboto, sans-serif;
+font-size:32px;
+line-height:36px;
+font-weight:normal;
 }
 
-.feature-column {
-  text-align: center;
+h3 {
+color:#000;
+margin-top:0;
+margin-bottom:20px;
+font-family:Roboto, sans-serif;
+font-size:26px;
+line-height:33px;
+font-weight:500;
 }
+
+.menu {
+font-weight:light;
+width:100%;
+height:70px;
+background:#0009;
+}
+
+.menu ul {
+font-family:Roboto, sans-serif;
+font-weight:light;
+float:right;
+margin:0;
+padding:0;
+}
+
+.menu ul li {
+display:inline-block;
+font-weight:light;
+list-style:none;
+width:120px;
+height:70px;
+text-align:center;
+line-height:70px;
+}
+
+.menu ul li a {
+color:#fff;
+text-decoration:none;
+font-size:20px;
+font-weight:light;
+display:block;
+}
+
+.menu ul li a:hover {
+background:#2196f3;
+color:#fff;
+font-weight:light;
+-webkit-transition:.3s;
+-o-transition:.3s;
+transition:.3s;
+}
+
+.menu h2 {
+font-family:Roboto, sans-serif;
+float:left;
+margin:15px;
+padding:0;
+}
+
+/html {
+font-family:sans-serif;
+-ms-text-size-adjust:100%;
+-webkit-text-size-adjust:100%;
+}
+
+a {
+background-color:transparent;
+color:#2196f3;
+text-decoration:none;
+}
+
+a:active,a:hover {
+outline:0;
+}
+
+img {
+border:0;
+max-width:100%;
+vertical-align:middle;
+display:inline-block;
+}
+
+@font-face {
+font-family:Arial;
+font-weight:light;
+font-style:normal;
+}
+
+* {
+-webkit-box-sizing:border-box;
+box-sizing:border-box;
+}
+
+html {
+height:100%;
+}
+
+h1,h2,h3 {
+font-weight:light;
+margin-bottom:10px;
+}
+
+p {
+font-family:Roboto, sans-serif;
+margin-top:0;
+margin-bottom:20px;
+line-height:22px;
+font-weight:light;
+}
+
+ul {
+margin-top:0;
+margin-bottom:20px;
+padding-left:40px;
+}
+
+.w-container {
+margin-left:auto;
+margin-right:auto;
+max-width:940px;
+}
+
+.w-container .w-row {
+margin-left:-10px;
+margin-right:-10px;
+}
+
+.w-row .w-row {
+margin-left:0;
+margin-right:0;
+}
+
+.w-col {
+position:relative;
+float:left;
+width:100%;
+min-height:1px;
+padding-left:10px;
+padding-right:10px;
+}
+
+.w-col .w-col {
+padding-left:0;
+padding-right:0;
+}
+
+.w-col-4 {
+width:33.33333333%;
+}
+
+.w-col-6 {
+width:50%;
+}
+
+.w-col-8 {
+width:66.66666667%;
+}
+
+.w-slider {
+position:relative;
+height:300px;
+text-align:center;
+background:#ddd;
+clear:both;
+-webkit-tap-highlight-color:rgba(0,0,0,0);
+tap-highlight-color:rgba(0,0,0,0);
+}
+
+.w-slide {
+position:relative;
+display:inline-block;
+vertical-align:top;
+width:100%;
+height:100%;
+white-space:normal;
+text-align:left;
+}
+
+.w-tab-pane {
+position:relative;
+display:none;
+}
+
+100% {
+-webkit-transform:rotate(360deg);
+    -ms-transform:rotate(360deg);
+        transform:rotate(360deg);
+}
+
+.section {
+position:relative;
+padding-top:50px;
+padding-bottom:50px;
+background-color:#fff;
+}
+
+.hero-slider {
+height:455px;
+background-color:transparent;
+}
+
+.slide {
+padding-top:82px;
+padding-right:85px;
+padding-left:85px;
+background-color:#dbdbdb;
+}
+
+.page-heading {
+margin-top:0;
+margin-bottom:11px;
+}
+
+.fixed-image-section {
+background-image:-webkit-gradient(linear,left top, left bottom,from(rgba(0,0,0,.25)), to(rgba(0,0,0,.25))), url(carlot.jpg);
+background-image:-webkit-linear-gradient(top,rgba(0,0,0,.25), rgba(0,0,0,.25)), url(carlot.jpg);
+background-image:-o-linear-gradient(top,rgba(0,0,0,.25), rgba(0,0,0,.25)), url(carlot.jpg);
+background-image:linear-gradient(180deg,rgba(0,0,0,.25), rgba(0,0,0,.25)), url(carlot.jpg);
+background-position:0 0 50% 50%;
+background-size:cover;
+background-attachment:scroll, fixed;
+color:#fff;
+text-align:center;
+padding:117px 20px;
+}
+
+.hollow-button {
+display:inline-block;
+margin-right:10px;
+margin-left:10px;
+border:2px solid #2196f3;
+border-radius:4px;
+-webkit-transition:background-color 300ms ease, border 300ms ease, color 300ms ease;
+-o-transition:background-color 300ms ease, border 300ms ease, color 300ms ease;
+transition:background-color 300ms ease, border 300ms ease, color 300ms ease;
+color:#2196f3;
+font-size:16px;
+line-height:19px;
+text-decoration:none;
+padding:9px 20px;
+}
+
+.hollow-button:hover {
+color:#1565c0;
+border-color:#1565c0;
+}
+
+.section-subheading.center {
+font-family:Roboto, sans-serif;
+font-size:20px;
+text-align:center;
+}
+
+.section-title-group {
+margin-bottom:62px;
+}
+
+.content-column {
+padding-top:42px;
+}
+
+.w-container:before,.w-container:after,.w-row:before,.w-row:after {
+content:" ";
+display:table;
+-ms-grid-column:1;
+    grid-column-start:1;
+-ms-grid-row:1;
+    grid-row-start:1;
+-ms-grid-column-span:1;
+grid-column-end:2;
+-ms-grid-row-span:1;
+grid-row-end:2;
+}
+
+.w-container:after,.w-row:after {
+clear:both;
+}
+
+.section-heading.centered,.image-column,.feature-column,.waterfall-image-column {
+text-align:center;
+}
+
+.section-heading,.grid-image {
+margin-bottom:20px;
+}
+
+@media screen and max-width991px{
+.w-container {
+max-width:728px;
+}
+}
+
+@media screen and max-width767px{
+
+.w-row,.w-container .w-row {
+margin-left:0;
+margin-right:0;
+}
+
+.w-col {
+width:100%;
+left:auto;
+right:auto;
+}
+}
+
+@media screen and max-width479px{
+.w-container {
+max-width:none;
+}
+
+.w-col {
+width:100%;
+}
+}
+
+@media max-width 991px{
+
+.hero-slider {
+height:400px;
+}
+
+.content-column {
+padding-top:0;
+}
+}
+
+@media max-width 767px{
+
+.hero-slider {
+height:528px;
+}
+
+.slide {
+padding-top:30px;
+padding-bottom:30px;
+}
+
+.content-column {
+margin-bottom:13px;
+text-align:center;
+}
+
+.section {
+padding-right:20px;
+padding-left:20px;
+}
+
 .image-column {
-  text-align: center;
+margin-bottom:10px;
 }
-.grid-image {
-  margin-bottom: 20px;
 }
 
-</style>
+@media max-width 479px{
+
+.hero-slider {
+height:550px;
+}
+
+.slide {
+padding-right:53px;
+padding-left:53px;
+}
+}
+	</style>
 </head>
 <body>
 <div class="menu">
 <h2>
-  Roger Gagnon Auto Sales
+	Roger Gagnon Auto Sales
 </h2>
-  <ul>
-    <li><a href="#"><div>Home</div></a>
-    <li><a href="#"><div>Inventory</div></a>
-    <li><a href="#"><div>Contact Us</div></a>
-  </ul>
+	<ul>
+		<li><a href="#"><div>Home</div></a>
+		<li><a href="#"><div>Inventory</div></a>
+		<li><a href="#"><div>Contact Us</div></a>
+	</ul>
 </div>
 </body>
 
@@ -422,7 +461,7 @@ td,th{
             <p>
                 <div>
                   <a href=
-                  "https://conradkleinpeter.github.io/"
+                  "http://priveliged-whites-first-project.webflow.io/#"
                   class="hollow-button">See Cars Only</a>
                 </div>
             </p>
@@ -437,7 +476,7 @@ td,th{
             <p>
                 <div>
                   <a href=
-                  "https://conradkleinpeter.github.io/"
+                  "http://priveliged-whites-first-project.webflow.io/#"
                   class="hollow-button">See Trucks Only</a>
                 </div>
             </p>
@@ -452,7 +491,7 @@ td,th{
             <p>
                 <div>
                   <a href=
-                  "https://conradkleinpeter.github.io/"
+                  "http://priveliged-whites-first-project.webflow.io/#"
                   class="hollow-button">See SUVs Only</a>
                 </div>
             </p>
@@ -482,7 +521,11 @@ td,th{
                     Heading
                   </h2>
                   <p>
-					sample text
+                    Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Suspendisse varius enim in
+                    eros elementum tristique. Duis cursus, mi quis
+                    viverra ornare, eros dolor interdum nulla, ut
+                    commodo diam libero vitae erat.&nbsp;
                   </p>
                 </div>
               </div>
@@ -498,7 +541,7 @@ td,th{
             Section Heading
           </h2>
           <div class="section-subheading center sasd-asd-as">
-            sample text
+            This is some text inside of a div block.
           </div>
         </div>
         <div class="w-row">
@@ -514,7 +557,9 @@ td,th{
                   Heading
                 </h3>
                 <p>
-					sample text
+                  Lorem ipsum dolor sit amet, consectetur
+                  adipiscing elit. Suspendisse varius enim in eros
+                  elementum tristique.
                 </p>
               </div>
             </div>
@@ -531,7 +576,9 @@ td,th{
                   Heading
                 </h3>
                 <p>
-                  sample text
+                  Lorem ipsum dolor sit amet, consectetur
+                  adipiscing elit. Suspendisse varius enim in eros
+                  elementum tristique.
                 </p>
               </div>
             </div>
@@ -541,14 +588,18 @@ td,th{
           <div class="w-col w-col-6">
             <div class="w-row">
               <div class="w-col w-col-4">
-
+                <img src=
+                "./Priveliged%20white's%20First%20Project_files/image-placeholder.svg"
+                width="100" alt="" class="grid-image" />
               </div>
               <div class="w-col w-col-8">
                 <h3>
                   Heading
                 </h3>
                 <p>
-                  more sample text
+                  Lorem ipsum dolor sit amet, consectetur
+                  adipiscing elit. Suspendisse varius enim in eros
+                  elementum tristique.
                 </p>
               </div>
             </div>
@@ -565,7 +616,9 @@ td,th{
                   Heading
                 </h3>
                 <p>
-                  more sample text
+                  Lorem ipsum dolor sit amet, consectetur
+                  adipiscing elit. Suspendisse varius enim in eros
+                  elementum tristique.
                 </p>
               </div>
             </div>
